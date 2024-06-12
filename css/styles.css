@@ -47,36 +47,10 @@ ul {
 }
 
 .container {
-    width: 1158px;
+    width: 320px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-}
-
-@media screen and (min-width: 320px) {
-    .container {
-        max-width: 320px;
-        padding-left: 16px;
-        padding-right: 16px;
-        margin-left: auto;
-        margin-right: auto
-    }
-
-}
-
-@media screen and (min-width: 768px) {
-    .container {
-        max-width: 768px;
-    }
-
-}
-
-@media screen and (min-width: 1158px) {
-    .container {
-        max-width: 1158px;
-        padding-left: 15px;
-        padding-right: 15px;
-    }
 }
 
 .header-nav {
@@ -213,6 +187,7 @@ ul {
 .list-title {
     display: flex;
     gap: 24px;
+    flex-wrap: wrap;
 }
 
 .list-text-title {
@@ -762,4 +737,19 @@ input::placeholder {
 
 .title-link-mod {
     color: #4d5ae5;;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+
+}
+
+@media screen and (min-width: 1158px) {
+    .container {
+        max-width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
