@@ -47,7 +47,7 @@ ul {
 }
 
 .container {
-    width: 320px;
+    max-width: 320px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -808,14 +808,13 @@ input::placeholder {
         }
 
     .title-people {
+        display: flex;
         gap: 64px 24px;
         flex-wrap: wrap;
         flex-direction: row;
+        justify-content: center;
     }
 
-    .title-pic {
-        width: calc((100% - 24px ) / 2);
-    }
 
     .wrap-portfolio {
         padding-top: 96px;
@@ -823,9 +822,11 @@ input::placeholder {
     }
 
     .list-port {
+        display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        gap: 24px 72px;
+        gap: 72px 24px;
+        justify-content: center;
     }
 
     .portfolio-img {
