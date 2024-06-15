@@ -18,6 +18,27 @@
     line-height: 1.5;
   }
 
+  .wrap {
+    width: 320;
+    display: flex;
+    max-width: 1440px;
+    padding-left: 52px;
+    padding-right: 52px;
+    position: fixed;
+    width: 320px;
+    height: 432px;
+  }
+
+  .wrap-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    padding-bottom: 200px;
+    padding-top: 72px;
+  }
+
   .wrap-text {
     padding-top: 120px;
     padding-bottom: 120px;
