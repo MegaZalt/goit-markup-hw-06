@@ -1,0 +1,112 @@
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .menu {
+    display: flex;
+    gap: 40px;
+  }
+
+  .address-link {
+    display: block;
+  }
+
+  .mob-menu-btn {
+    display: none;
+  }
+
+  .logo {
+    margin-right: 120px;
+  }
+
+  .link {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .wrap-text {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
+  .list-text-title {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .list-title {
+    display: flex;
+    gap: 72px 24px;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .wrap-pic {
+    background-color: #f4f4fd;
+  
+  }
+
+  .text-title {
+    text-align: left;
+  }
+
+  .wrap-team {
+    line-height: 40px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    font-weight: 700;
+    font-size: 36px;
+  }
+
+  .title-people {
+    display: flex;
+    gap: 64px 24px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .wrap-portfolio {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
+  .list-port {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 72px 24px;
+    justify-content: center;
+  }
+
+  .portfolio-img {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .footer-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 72px 24px; 
+    align-items: baseline;
+
+    padding-left: 108px;
+  }
+
+  .footer-logo {
+    text-align: left;
+  }
+
+  .footer-socialmedia {
+    text-align: left;
+  }
+
+  .footer-text-subscribe {
+    text-align: left;
+  }
+
+  .form-content {
+    flex-direction: row;
+  }
+}
