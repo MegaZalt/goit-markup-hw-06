@@ -33,6 +33,14 @@
     font-size: 56px;
     max-width: 496px;
     margin-bottom: 36px;
+    font-family: "Roboto", sans-serif;
+      font-weight: 700;
+      font-size: 56px;
+     line-height: 60px; 
+      line-height: 1.07143;
+      letter-spacing: 0.02em;
+      text-align: center;
+      color: #fff
   }
 
   .wrap-text {
