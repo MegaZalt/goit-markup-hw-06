@@ -30,7 +30,9 @@
   }
 
   .wrap-title {
-    
+    font-size: 56px;
+    max-width: 496px;
+    margin-bottom: 36px;
   }
 
   .wrap-text {
