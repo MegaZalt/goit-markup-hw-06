@@ -159,6 +159,8 @@ ul {
   text-align: center;
   color: #fff;
   margin-bottom: 72px;
+  margin-left: auto;
+    margin-right: auto;
 }
 
 .title-button {
