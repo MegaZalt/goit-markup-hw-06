@@ -189,7 +189,8 @@ ul {
 .mob-ic {}
 
 .mob-icon {
-  fill: transparent;
+  fill: #4d5ae5;
+  stroke: #ffffff;
 }
 
 .wrap {
