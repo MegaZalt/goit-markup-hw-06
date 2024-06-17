@@ -136,6 +136,62 @@ ul {
   color: #404bbf;
 }
 
+.mob-menu {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fcfcfc;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: auto;
+}
+
+.mob-close-btn {
+  display: block;
+  margin-left: auto;^
+  margin-bottom: 105px;
+}
+
+.mob-link-menu {
+  margin-bottom: 50px;
+}
+
+.mob-menu-item:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.mob-menu-studio {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px; 
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.current {}
+
+.mob-link {
+  display: flex;
+  gap: 24px;
+}
+
+.mob-link-inf {}
+
+.mob-header-title {}
+
+.mob-ic {}
+
+.mob-icon {
+  fill: transparent;
+}
+
 .wrap {
   min-width: 320px;
   background: rgba(46, 47, 66, 0.7);
