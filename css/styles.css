@@ -158,6 +158,12 @@ ul {
   margin-bottom: 105px;
 }
 
+.mob-menu.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
 .mob-link-menu {
   margin-bottom: 50px;
 }
@@ -178,17 +184,26 @@ ul {
 .current {}
 
 .mob-link {
-  display: flex;
-  gap: 24px;
 }
 
-.mob-link-inf {}
+.mob-link-inf {
+    font-weight: 500;
+    font-size: 20px;
+  line-height: 24px; 
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
 
 .mob-header-title {}
 
 .mob-ic {}
 
 .mob-icon {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
   fill: #4d5ae5;
   stroke: #ffffff;
 }
