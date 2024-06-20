@@ -156,6 +156,7 @@ ul {
   display: block;
   margin-left: auto;^
   margin-bottom: 105px;
+  border-radius: 50%;
 }
 
 .mob-menu.is-open {
@@ -181,7 +182,10 @@ ul {
   color: #2e2f42;
 }
 
-.current {}
+.mob-menu-studio .current {
+  color: #404bbf;
+  position: relative;
+}
 
 .mob-link {
 }
