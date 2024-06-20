@@ -117,6 +117,7 @@ ul {
   background-color: transparent;
 }
 
+
 .link {
   display: flex;
   gap: 40px;
@@ -199,7 +200,14 @@ ul {
     color: #434455;
 }
 
-.mob-header-title {}
+.mob-header-ic {
+  display: flex;
+}
+
+.mob-header-title {
+  width: 40px;
+    height: 40px;
+}
 
 .mob-ic {}
 
@@ -209,8 +217,6 @@ ul {
     justify-content: center;
     border-radius: 50%;
   fill: #4d5ae5;
-  stroke: #ffffff;
-}
 
 .wrap {
   min-width: 320px;
@@ -417,6 +423,12 @@ ul {
   display: flex;
   justify-content: center;
   gap: 24px;
+}
+
+.mob-header-ic {
+  display: flex;
+    justify-content: center;
+    gap: 24px;
 }
 
 .wrap-portfolio {
