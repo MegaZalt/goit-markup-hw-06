@@ -177,7 +177,7 @@ ul {
   margin-bottom: 168px;
 }
 
-.mob-link-menu 
+.mob-link-menu {}
 
 .mob-menu-item:not(:last-child) {
   margin-bottom: 40px;
