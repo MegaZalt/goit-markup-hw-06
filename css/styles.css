@@ -173,8 +173,11 @@ ul {
   pointer-events: auto;
 }
 
-.mob-link-menu {
+.mob-menu-cl {
+  margin-bottom: 168px;
 }
+
+.mob-link-menu 
 
 .mob-menu-item:not(:last-child) {
   margin-bottom: 40px;
