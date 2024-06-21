@@ -117,7 +117,6 @@ ul {
   background-color: transparent;
 }
 
-
 .link {
   display: flex;
   gap: 40px;
@@ -149,15 +148,23 @@ ul {
   padding: 24px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   overflow: auto;
 }
 
 .mob-close-btn {
-  display: block;
-  margin-left: auto;^
+  display: flex;
+  margin-left: auto;
   margin-bottom: 105px;
   border-radius: 50%;
+  border: none;
+  width: 24px;
+  height: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.mob-menu-nav {
+  margin-bottom: auto;
 }
 
 .mob-menu.is-open {
@@ -167,7 +174,6 @@ ul {
 }
 
 .mob-link-menu {
-  margin-bottom: 50px;
 }
 
 .mob-menu-item:not(:last-child) {
@@ -177,7 +183,7 @@ ul {
 .mob-menu-studio {
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px; 
+  line-height: 40px;
   line-height: 1.11111;
   letter-spacing: 0.02em;
   color: #2e2f42;
@@ -189,26 +195,29 @@ ul {
 }
 
 .mob-link {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 48px;
+  gap: 24px;
 }
 
 .mob-link-inf {
-    font-weight: 500;
-    font-size: 20px;
-  line-height: 24px; 
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #434455;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .mob-header-ic {
   display: flex;
-    align-items: center;
-    justify-content: center;
+  align-items: center;
 }
 
 .mob-header-title {
   width: 40px;
-    height: 40px;
+  height: 40px;
 }
 
 .mob-ic {
@@ -439,8 +448,8 @@ ul {
 
 .mob-header-ic {
   display: flex;
-    justify-content: center;
-    gap: 24px;
+  justify-content: center;
+  gap: 24px;
 }
 
 .wrap-portfolio {
